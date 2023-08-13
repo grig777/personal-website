@@ -26,7 +26,7 @@ const greeting = {
     "🚀Dynamic Software and DevOps Engineer with a proven track record in architecting and deploying secure cloud solutions. Expertise in cloud-native ecosystems, containerization, and automation, complemented by a suite of industry-recognized certifications. Adept at optimizing infrastructure for scalability and performance, with a passion for continuous learning and innovation, ready to drive the next wave of technical excellence💡"
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1puy-upnVB57evPr5BC-3xucfHEcFlcAzYj-ZVleoXto/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/e/2PACX-1vRnLieiRHwU-9pw6CwP2JeKAbXYonOlwU7q2hG-I8Lbq8-f6oBI_RTHUZHzSoFgVjdVY_8_iSaDvLQg/pub", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

@@ -36,10 +36,10 @@ const socialMediaLinks = {
   github: "https://github.com/grig777",
   linkedin: "https://www.linkedin.com/in/grigor-poghosyan/",
   gmail: "grigor.poghosyan.gp@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  // gitlab: "",
+  // facebook: "",
+  // medium: "",
+  // stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,21 +49,30 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE DEVOPS MAESTRO EAGER TO CONQUER EVERY CLOUD IN THE SKY! ☁️🚀",
+  subTitle:
+    "PASSIONATE DEVOPS MAESTRO EAGER TO CONQUER EVERY CLOUD IN THE SKY! ☁️🚀",
   skills: [
     emoji(
       "⚡ Cloud Solutions Architecting: Designing and deploying secure, scalable cloud infrastructures tailored to organizational needs"
     ),
-    emoji("⚡ Containerization & Orchestration: Proficient with Docker, Kubernetes, and related container technologies, ensuring streamlined application deployment and scaling"),
+    emoji(
+      "⚡ Containerization & Orchestration: Proficient with Docker, Kubernetes, and related container technologies, ensuring streamlined application deployment and scaling"
+    ),
     emoji(
       "⚡ Infrastructure Automation: Implementing Infrastructure as Code (IaC) using tools like Terraform, CDK, Crossplane and Packer."
     ),
     emoji(
       " Continuous Integration & Deployment: Streamlining development workflows with GitOps principles, using platforms like GitLab CI and ArgoCD."
     ),
-    emoji("⚡ Performance Optimization: Ensuring high availability, scalability, and optimal performance of cloud solutions."),
-    emoji("⚡ Monitoring & Logging: Implementing real-time monitoring and logging solutions using tools like ELK Stack, Grafana, and Prometheus."),
-    emoji("⚡ Continuous Learning, Innovation & Mentorship: Staying updated with the latest in tech, exploring new tools and methodologies, and sharing knowledge through training sessions and workshops")
+    emoji(
+      "⚡ Performance Optimization: Ensuring high availability, scalability, and optimal performance of cloud solutions."
+    ),
+    emoji(
+      "⚡ Monitoring & Logging: Implementing real-time monitoring and logging solutions using tools like ELK Stack, Grafana, and Prometheus."
+    ),
+    emoji(
+      "⚡ Continuous Learning, Innovation & Mentorship: Staying updated with the latest in tech, exploring new tools and methodologies, and sharing knowledge through training sessions and workshops"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -137,7 +146,7 @@ const educationInfo = {
       subHeader: "Bachelor of Engineering and   Computer Science",
       duration: "September 2012 - May 2018",
       descBullets: []
-    },
+    }
   ]
 };
 
@@ -261,8 +270,8 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.credly.com/earner/earned/badge/8e156c68-7639-464a-b3ee-497b8f1723bc"
-        },
+          url: "https://www.credly.com/badges/8e156c68-7639-464a-b3ee-497b8f1723bc/public_url"
+        }
       ]
     },
     {
@@ -273,7 +282,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.credly.com/earner/earned/badge/87c6ff24-b859-4a5c-88a5-ba007e027824"
+          url: ""
         }
       ]
     },
@@ -282,7 +291,10 @@ const achievementSection = {
       image: require("./assets/images/certeficates/aws-certified-security-specialty.png"),
       imageAlt: "AWS Certified Security – Specialty",
       footerLink: [
-        {name: "Certification", url: "https://www.credly.com/earner/earned/badge/0c026d99-6ba6-4827-9ee5-22d924bc2b64"},
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/0c026d99-6ba6-4827-9ee5-22d924bc2b64/public_url"
+        }
       ]
     },
     {
@@ -290,7 +302,10 @@ const achievementSection = {
       image: require("./assets/images/certeficates/ckad-certified-kubernetes-application-developer.png"),
       imageAlt: "CKAD: Certified Kubernetes Application Developer",
       footerLink: [
-        {name: "Certification", url: "https://www.credly.com/earner/earned/badge/1d25a02b-c929-40b6-8c89-49b1a786510e"},
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/1d25a02b-c929-40b6-8c89-49b1a786510e/public_url"
+        }
       ]
     },
     {
@@ -298,7 +313,10 @@ const achievementSection = {
       image: require("./assets/images/certeficates/cka-certified-kubernetes-administrator.png"),
       imageAlt: "CKA: Certified Kubernetes Administrator",
       footerLink: [
-        {name: "Certification", url: "https://www.credly.com/earner/earned/badge/fabbfeb9-4f72-409f-b5fe-a4701f6231fe"},
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/fabbfeb9-4f72-409f-b5fe-a4701f6231fe/public_url"
+        }
       ]
     },
     {
@@ -306,7 +324,10 @@ const achievementSection = {
       image: require("./assets/images/certeficates/aws-certified-devops-engineer-professional.png"),
       imageAlt: "AWS Certified DevOps Engineer – Professional",
       footerLink: [
-        {name: "Certification", url: "https://www.credly.com/earner/earned/badge/64da8166-2e26-4a15-b320-62856e89a2a9"},
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/64da8166-2e26-4a15-b320-62856e89a2a9/public_url"
+        }
       ]
     },
     {
@@ -314,7 +335,10 @@ const achievementSection = {
       image: require("./assets/images/certeficates/hashicorp-certified-terraform-associate-002.png"),
       imageAlt: "HashiCorp Certified: Terraform Associate",
       footerLink: [
-        {name: "Certification", url: "https://www.credly.com/earner/earned/badge/bd0b7d90-c0ca-4b6c-bcd8-6ef53c106e9f"},
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/bd0b7d90-c0ca-4b6c-bcd8-6ef53c106e9f/public_url"
+        }
       ]
     },
     {
@@ -322,7 +346,10 @@ const achievementSection = {
       image: require("./assets/images/certeficates/aws-certified-sysops-administrator-associate.png"),
       imageAlt: "AWS Certified SysOps Administrator – Associate",
       footerLink: [
-        {name: "Certification", url: "https://www.credly.com/earner/earned/badge/bf47867c-ee12-4589-9eb7-4715f80e83bd"},
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/bf47867c-ee12-4589-9eb7-4715f80e83bd/public_url"
+        }
       ]
     },
     {
@@ -330,7 +357,10 @@ const achievementSection = {
       image: require("./assets/images/certeficates/aws-certified-developer-associate.png"),
       imageAlt: "AWS Certified Developer – Associat",
       footerLink: [
-        {name: "Certification", url: "https://www.credly.com/earner/earned/badge/59156afa-7fd1-4316-a6ff-34c5f03e6306"},
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/59156afa-7fd1-4316-a6ff-34c5f03e6306/public_url"
+        }
       ]
     },
     {
@@ -338,9 +368,12 @@ const achievementSection = {
       image: require("./assets/images/certeficates/aws-certified-solutions-architect-associate.png"),
       imageAlt: "AWS Certified Solutions Architect – Associate",
       footerLink: [
-        {name: "Certification", url: "https://www.credly.com/earner/earned/badge/51c01b7e-7612-4852-ae22-8874411da043"},
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/51c01b7e-7612-4852-ae22-8874411da043/public_url"
+        }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -387,16 +420,15 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me"),
-  subtitle:
-    emoji("INTERESTED IN COLLABORATING OR JUST WANT TO SAY HELLO? MY INBOX IS ALWAYS OPEN! 💌" ),
+  subtitle: emoji(
+    "INTERESTED IN COLLABORATING OR JUST WANT TO SAY HELLO? MY INBOX IS ALWAYS OPEN! 💌"
+  ),
   email_address: "grigor.poghosyan.gp@gmail.com"
 };
 

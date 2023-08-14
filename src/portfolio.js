@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Grigor Poghosyann",
+  username: "Grigor Poghosyan",
   title: "Hi all, I'm Grigor",
   subTitle: emoji(
     "🚀Dynamic Software and DevOps Engineer with a proven track record in architecting and deploying secure cloud solutions. Expertise in cloud-native ecosystems, containerization, and automation, complemented by a suite of industry-recognized certifications. Adept at optimizing infrastructure for scalability and performance, with a passion for continuous learning and innovation, ready to drive the next wave of technical excellence💡"

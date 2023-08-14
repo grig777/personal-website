@@ -282,7 +282,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: ""
+          url: "https://www.credly.com/badges/87c6ff24-b859-4a5c-88a5-ba007e027824/public_url"
         }
       ]
     },
